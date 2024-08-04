@@ -92,6 +92,19 @@ body{
     font-size: 40px;
 }
 
+.projectCarousel1{
+    align-items: center;
+    align-content: center;
+}
+
+.imageCarousel{
+    
+}
+
+.image{
+    width: 60%;
+}
+
 .skills{
     width: 100%;
     align-items: center;
