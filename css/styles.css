@@ -86,37 +86,42 @@ body{
 
 .project1Title{
     text-align: left;
+    padding: 0 10px 0 0;
     font-family: "Roboto";
     font-weight: 100;
     color: #86beff;
     font-size: 40px;
+    display: inline-block;
 }
 
 .projectCarousel1{
-    align-items: center;
-    align-content: center;
+    display:flex
 }
 
-.imageCarousel{
+/* .imageCarousel{
     
-}
+} */
 
 .image{
     width: 60%;
 }
 
+.projectDesc{
+    font-family: "Roboto";
+    font-weight: 100;
+    text-align: center;
+}
+
 .skills{
-    width: 100%;
     align-items: center;
     list-style: none;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .skill{
     text-align: center;
+    padding: 2px;
 }
 
 .individualSkill{
