@@ -71,6 +71,8 @@ body{
     border-radius: 5px;
     background-color: transparent;
     color: #fba0bd;
+    box-shadow: 10px 10px 0 #fba0bd;
+    cursor: pointer;
     transition: all .5s ease;
 }
 
@@ -78,6 +80,29 @@ body{
     transform: scale(1.1);
     color:white;
     background-color: #fba0bd;
+    box-shadow: 0 0 0 transparent;
+}
+
+.repoLinksButton{
+    padding: 20px;
+    font-size: 20px;
+    border-color: #86beff;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #86beff;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+
+.repoLinksButton:hover{
+    transform: scale(1.1);
+    color:white;
+    background-color: #86beff;
+}
+
+
+.projectsButton:active{
+    opacity: .7;
 }
 
 .projectsDiv{
