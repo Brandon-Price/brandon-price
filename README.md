@@ -1,6 +1,6 @@
 # Currently a work in progress
 
-Current portfolio: https://brandon-price.github.io/brandon-price/ <br>
+Portfolio Link: https://brandon-price.github.io/brandon-price/ <br>
 
 The new repo brandon-price, will replace my current portfolio and will still be hosted on github pages. <br>
 I will be updating it periodically when I complete more projects or at least closer to completion.
