@@ -124,6 +124,7 @@ small{
 .tags{
     color: white;
     padding: 3px 10px 3px 10px;
+    margin-bottom: 10px;
     background-color: light-dark(#444c57, #313131) ;
     border-radius: 2px;
     border-style: solid;
@@ -197,4 +198,73 @@ footer{
     translate: 0 1px;
     box-shadow: 0px 2px 0 #353535, 
                 0px 4px 0px #212121;
+}
+
+
+@media screen and (min-width: 360px) and (max-width: 800px) {
+    /* iPhone 14, */
+    .header{
+        font-size: 10px;
+    }
+
+    .name{
+        display: none;
+    }
+
+    .socialsContainer{
+        display: none;
+    }
+
+    .wrapper{
+        text-align: center;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    h3{
+        text-align: center;
+    }
+
+    small{
+        display: block;
+        text-align:center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .project-grid{
+        margin: 20px auto 0;
+        position: relative;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .project-item{
+        width: 100vw;
+    }
+
+    .screen{
+        z-index: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1000px) {
+    h1{
+        text-align: center;
+    }
+
+    h3{
+        text-align: center;
+    }
+
+    small{
+        display: block;
+        text-align:center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 }
