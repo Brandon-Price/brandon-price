@@ -4,7 +4,7 @@ Current portfolio: https://brandon-price.github.io/Engineering_Portfolio <br>
 
 The new repo brandon-price, will replace my current portfolio and will still be hosted on github pages. <br>
 For the brandon-price repo I still need to work on the following:
-- Next steps to be finished are finalizing the general theme of the page. i.e colors and background.
+- Add an animation for projects, I want to be able to hover over a project and another image replaces the current one. 
 - Making the page more responsive to size of screen currently only really supporting standard size desktop screens.
 
 Current projects that I am working on:
