@@ -1,70 +1,80 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brandon Price's Porfolio</title>
+    <title>Brandon Price's Portfolio</title>
+    <link rel="stylesheet" href="./css/main_styles.css">
     <link rel="icon" type="image/x-icon" href="./assets/icons8-terminal-32.png">
-    <link rel="stylesheet" href="./css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
-<body>  
-    <div> 
-        <div class="navbar">
-            <div class="name">
-                <p>BRANDON PRICE</p>
-            </div>
-            <div class="socials">
+<body>
+    <div class="portfolio">
+        <div class="header">
+            <p class="name">BRANDON PRICE</p>
+            <div class="socialsContainer">
                 <a class="socialLinks" href='https://github.com/Brandon-Price' target="_blank">GITHUB</a>
                 <a class="socialLinks" href='https://www.linkedin.com/in/brandonprice-/' target="_blank">LINKEDIN</a>
                 <a class="socialLinks" href='mailto:brandon.samuel.price@gmail.com' target="_blank">CONTACT</a>
             </div>
         </div>
-        <div class="main">
-            <p class="frag1">Hello, my name is</p>
-            <p class="frag2">Brandon Price</p>
-            <p class="frag3">I'm a software developer with more of a focus on backend development
-                            but I also have some experience working in full stack applications. </p>
-            <button class="projectsButton" onclick="goToGithub()">Checkout My Projects</button>
-            <p style="text-align: center; color: #a1acbd; padding: 100px 0px 0px 0px">____________________________________________</p>
+        <div class="wrapper">
+            <header>
+                <h1>Software Developer Portfolio</h1>
+                <h3>Backend projects to Fullstack web applications using technology like React, Nodejs. </h3>
+                <small>These are some of my completed projects but more information can be found on my github on current projects.</small>
+            </header>
         </div>
-        <div class="projectsDiv">
-            <div class="project1">
-                <p class="project1Title">Ecommerce Site</p>
-                <button class="repoLinksButton" style="font-size: 12px; padding: 10px; margin-top: -45px;" onclick="goToRepo('Ecommerce')">Repository Link</button>
-                <div class="projectCarousel1">
-                    <div class="mySlides">
+        <ul class="project-grid">
+            <li class="project-item">
+                <a class="screen" href="https://github.com/Brandon-Price/SWE-Project" target="_blank">
+                    <div class="main">
                         <img class="image" src="./assets/project2/Homepage.png">
                     </div>
-                    <div class="mySlides">
-                        <img class="image" src="./assets/project2/Sign In Sign Up.png">
-                    </div>
-                    <div>
-                        <p class="projectDesc"> Project focused on learning MERN stack. This project helped me to get exposure 
-                                                to a full tech stack and working on a scrum team. Every week I held a 
-                                                meeting for my project group where I would discuss my contributions and 
-                                                what was needed to be done next. I made the backend and did most of the frontend.
-                                                Once I did my part I focused on helping the members who were falling behind or 
-                                                neglecting to work on the project as a whole. </p>
-                        <ul class="skills">
-                            <li class="skill"><div class="individualSkill">React</div></li>
-                            <li class="skill"><div class="individualSkill">Redux</div></li>
-                            <li class="skill"><div class="individualSkill">NodeJS</div></li>
-                            <li class="skill"><div class="individualSkill">Express</div></li>
-                            <li class="skill"><div class="individualSkill">MongoDB</div></li>
-                        </ul>
-                    </div>
+                </a>
+                <div class="tagsContainer">
+                    <ul class="tags"><strong>React</strong></ul>
+                    <ul class="tags"><strong>Redux</strong></ul>
+                    <ul class="tags"><strong>Nodejs</strong></ul>
+                    <ul class="tags"><strong>Express</strong></ul>
+                    <ul class="tags"><strong>MongoDB</strong></ul>
                 </div>
-                <p style="text-align: center; color: #a1acbd; padding: 100px 0px 0px 0px">____________________________________________</p>
-            </div>
+            </li>
+            <li class="project-item">
+                <a class="screen" href="https://github.com/Brandon-Price/SWE-Project" target="_blank">
+                    <picture class="back">
+                        <img class="image" src="./assets/project2/Sign In Sign Up.png">
+                    </picture>
+                </a>
+                <div class="tagsContainer">
+                    <ul class="tags"><strong>React</strong></ul>
+                    <ul class="tags"><strong>Redux</strong></ul>
+                    <ul class="tags"><strong>Nodejs</strong></ul>
+                    <ul class="tags"><strong>Express</strong></ul>
+                    <ul class="tags"><strong>MongoDB</strong></ul>
+                </div>
+            </li>
+        </ul>
+        <div class="footerContainer">
+            <footer>
+                <p class="footer-text"><strong>Let's Connect!</strong><br> Feel Free To Reach Me At Any Of My Socials!</p>
+                <button class="linkedin" onclick="goToLinkedIn()">
+                    <span class="footerSocials">
+                        <img class="svg" src="./assets/linkedin-svgrepo-com.svg">
+                        LINKEDIN
+                    </span>
+                </button>
+                <button class="github" onclick="goToGithub()">
+                    <span class="footerSocials">
+                        <img class="svg" src="./assets/github-mark-white.png">
+                        GITHUB
+                    </span>
+                </button>
+            </footer>
         </div>
     </div>
-    <div class="footer">
-        <p style="padding: 10px">____________________________</p>
-        <p class="footerText">&copy;<script>document.write(new Date().getFullYear())</script> Brandon Price | All Rights Reserved</p>
-    </div>
     <script src="./scripts/routes.js"></script>
-    <script src="./scripts/carousel.js"></script>
 </body>
 </html>

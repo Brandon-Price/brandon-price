@@ -1,0 +1,194 @@
+:root{
+    color-scheme: light dark;
+}
+
+body{
+    margin: 0;
+    line-height: 1.75em;
+    font-family: "Roboto";
+    font-weight: 100;
+    color: light-dark(#333b3c, #cacaca);
+    background-color: light-dark(#efedea, #2a2a2a);
+}
+
+.portfolio{
+    text-align: center;
+}
+
+.header{
+    overflow: hidden;
+    padding: 20px 60px 20px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name{
+    text-align: center;
+    font-size: 25px;
+}
+
+.socialsContainer{
+    align-content: center;
+}
+
+.socialLinks{
+    line-height: 25px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    transition: all .5s ease;
+    color: inherit;
+}
+
+.socialLinks:hover{
+    cursor: pointer;
+    font-size: 27px;
+}
+
+.wrapper{
+    display: inline-block;
+    text-align: left;
+    max-width: 1010px;
+    margin: auto;
+}
+
+h1{
+   font-family: "Roboto";
+   font-weight: 100;
+}
+
+h3{
+    font-family: "Roboto";
+    font-weight: 100;
+}
+
+small{
+    font-family: "Roboto";
+    font-weight: 100;
+}
+
+.project-grid{
+    margin: 30px 100px 100px 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project-item{
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    display: block;
+    padding: 20px;
+    width: 30%;
+    box-sizing: border-box;
+}
+
+.main{
+    background-size: cover;
+    position: relative;
+    background-position: center center;
+    display: block;
+    width: 100%;
+    border-radius: 0;
+    transform-style: flat;
+}
+
+.back{
+    z-index: 1;
+}
+
+.screen{
+    position: relative;
+    display: block;
+    z-index: 10;
+    overflow: hidden;
+}
+
+.image{
+    object-fit: cover;
+    max-width: 100%;
+}
+
+.tagsContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tags{
+    color: white;
+    padding: 3px 10px 3px 10px;
+    background-color: light-dark(#444c57, #313131) ;
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: light-dark(#373e47,#1f1f1f);
+    box-shadow: 6px 6px 0px #222222;
+}
+
+.footerContainer{
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+footer{
+    display: inline-block;
+}
+
+.footer-text{
+    font-size: 20px;
+}
+
+.linkedin{
+    background-color: #0072b1;
+    color: white;
+    border: none;
+    text-align: center;
+    padding: 12px;
+    margin: 2px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all ease .2s;
+    box-shadow: 0px 3px 0 #003e5e, 
+                0px 6px 0px #212121;
+}
+
+.linkedin:hover{
+    opacity: .9;
+    translate: 0 1px;
+    box-shadow: 0px 2px 0 #003e5e, 
+                0px 4px 0px #212121;
+}
+
+.svg{
+    height: 15px;
+    width: 15px;
+}
+
+.footerSocials{
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.github{
+    background-color: #4f4f4f;
+    color: white;
+    border: none;
+    text-align: center;
+    padding: 12px;
+    margin: 2px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all ease .2s;
+    box-shadow: 0px 3px 0 #353535, 
+                0px 6px 0px #212121;
+}
+
+.github:hover{
+    opacity: .9;
+    translate: 0 1px;
+    box-shadow: 0px 2px 0 #353535, 
+                0px 4px 0px #212121;
+}
