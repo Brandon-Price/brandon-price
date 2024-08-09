@@ -49,7 +49,7 @@ body{
     display: inline-block;
     text-align: left;
     max-width: 1010px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 h1{
@@ -68,10 +68,11 @@ small{
 }
 
 .project-grid{
-    margin: 30px 100px 100px 100px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin-bottom: 5em;
+    padding-left: 0;
 }
 
 .project-item{
@@ -79,8 +80,8 @@ small{
     background-position: center center;
     position: relative;
     display: block;
-    padding: 20px;
-    width: 30%;
+    padding: 1.2em;
+    width: 50%;
     box-sizing: border-box;
 }
 
@@ -103,6 +104,7 @@ small{
     display: block;
     z-index: 10;
     overflow: hidden;
+    text-decoration: none;
 }
 
 .image{
@@ -112,6 +114,7 @@ small{
 
 .tagsContainer{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
