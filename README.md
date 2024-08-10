@@ -1,11 +1,9 @@
 # Currently a work in progress
 
-Current portfolio: https://brandon-price.github.io/Engineering_Portfolio <br>
+Portfolio Link: https://brandon-price.github.io/brandon-price/ <br>
 
 The new repo brandon-price, will replace my current portfolio and will still be hosted on github pages. <br>
-For the brandon-price repo I still need to work on the following:
-- Add an animation for projects, I want to be able to hover over a project and another image replaces the current one. 
-- Making the page more responsive to size of screen currently only really supporting standard size desktop screens.
+I will be updating it periodically when I complete more projects or at least closer to completion.
 
 Current projects that I am working on:
 - uAuth: creating a user authentication system to better learn express and nodejs as well as learning authentication practices and principles.
