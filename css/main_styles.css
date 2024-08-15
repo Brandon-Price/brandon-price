@@ -40,9 +40,18 @@ body{
     color: inherit;
 }
 
-.socialLinks:hover{
-    cursor: pointer;
-    font-size: 27px;
+@media (prefers-color-scheme: light){
+    .socialLinks:hover{
+        cursor: pointer;
+        box-shadow: 5px 5px 10px rgb(0, 0, 0, .1), -5px -5px 20px white;
+    }
+}
+
+@media (prefers-color-scheme: dark){
+    .socialLinks:hover{
+        cursor: pointer;
+        box-shadow: 5px 5px 10px rgb(0, 0, 0, .1), -5px -5px 20px rgb(0, 0, 0, .3);
+    }
 }
 
 .wrapper{
