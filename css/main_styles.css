@@ -136,13 +136,15 @@ small{
 
 .tagsContainer{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .tags{
     color: white;
     padding: 3px 10px 3px 10px;
+    margin-right: 10px;
     margin-bottom: 10px;
     background-color: light-dark(#444c57, #313131) ;
     border-radius: 2px;
