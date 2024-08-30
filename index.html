@@ -1,104 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brandon Price's Portfolio</title>
-    <link rel="stylesheet" href="./css/main_styles.css">
-    <link rel="icon" type="image/x-icon" href="./assets/icons8-terminal-32.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-</head>
-<body>
-    <div class="portfolio">
-        <div class="header">
-            <p class="name">BRANDON PRICE</p>
-            <div class="socialsContainer">
-                <a class="socialLinks" href='https://github.com/Brandon-Price' target="_blank">GITHUB</a>
-                <a class="socialLinks" href='https://www.linkedin.com/in/brandonprice-/' target="_blank">LINKEDIN</a>
-                <a class="socialLinks" href='mailto:brandon.samuel.price@gmail.com' target="_blank">CONTACT</a>
+    <meta name="portfolio">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Brandon Price's Portfolio</title>
+        <link rel="stylesheet" href="./css/main_styles.css">
+        <link rel="icon" type="image/x-icon" href="./assets/icons8-terminal-32.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="portfolio">
+            <div class="header">
+                <p class="name">BRANDON PRICE</p>
+                <div class="socialsContainer">
+                    <a class="socialLinks" href='https://github.com/Brandon-Price' target="_blank">GITHUB</a>
+                    <a class="socialLinks" href='https://www.linkedin.com/in/brandonprice-/' target="_blank">LINKEDIN</a>
+                    <a class="socialLinks" href='mailto:brandon.samuel.price@gmail.com' target="_blank">CONTACT</a>
+                </div>
+            </div>
+            <div class="wrapper">
+                <header>
+                    <h1>Software Developer Portfolio</h1>
+                    <h3>Backend projects to Fullstack web applications using technology like React, Nodejs. </h3>
+                    <small>These are some of my completed projects but more projects can be found on my github on current projects.</small>
+                </header>
+                <ul class="project-grid">
+                    <li class="project-item">
+                        <a class="screen" href="https://github.com/Brandon-Price/UI-Project" target="_blank">
+                            <img class="image" src="./assets/project1/Homepage.png">
+                            <img class="image" src="./assets/project1/Sign-In Sign-Up.png">
+                        </a>
+                        <div class="tagsContainer">
+                            <ul class="tags"><strong>React</strong></ul>
+                            <ul class="tags"><strong>Redux</strong></ul>
+                            <ul class="tags"><strong>Nodejs</strong></ul>
+                            <ul class="tags"><strong>Express</strong></ul>
+                            <ul class="tags"><strong>MongoDB</strong></ul>
+                        </div>
+                    </li>
+                    <li class="project-item">
+                        <a class="screen" href="https://github.com/Brandon-Price/SWE-Project" target="_blank">
+                            <img class="image" src="./assets/project2/Homepage.png">
+                            <img class="image" src="./assets/project2/Sign In Sign Up.png">
+                        </a>
+                        <div class="tagsContainer">
+                            <ul class="tags"><strong>React</strong></ul>
+                            <ul class="tags"><strong>Redux</strong></ul>
+                            <ul class="tags"><strong>Nodejs</strong></ul>
+                            <ul class="tags"><strong>Express</strong></ul>
+                            <ul class="tags"><strong>MongoDB</strong></ul>
+                        </div>
+                    </li>
+                    <li class="project-item">
+                        <a class="screen" href="https://github.com/Brandon-Price/uAuth" target="_blank">
+                            <img class="image" src="./assets/project3/Sign in.png">
+                            <img class="image" src="./assets/project3/Database Test.png"">
+                        </a>
+                        <div class="tagsContainer">
+                            <ul class="tags"><strong>Typescript</strong></ul>
+                            <ul class="tags"><strong>Nextjs</strong></ul>
+                            <ul class="tags"><strong>Tailwind</strong></ul>
+                            <ul class="tags"><strong>Postgres</strong></ul>
+                            <ul class="tags"><strong>Express</strong></ul>
+                            <ul class="tags"><strong>Docker</strong></ul>
+                            <ul class="tags"><strong>Prisma</strong></ul>
+                        </div>
+                    </li>
+                    <li class="project-item">
+                        <a class="screenPlaceholder" href="https://github.com/Brandon-Price/to-do" target="_blank">
+                            <img class="image" src="./assets/Placeholder.png">
+                        </a>
+                        <div class="tagsContainer">
+                            <ul class="tags"><strong>Typescript</strong></ul>
+                            <ul class="tags"><strong>Nextjs</strong></ul>
+                            <ul class="tags"><strong>Postgres</strong></ul>
+                            <ul class="tags"><strong>Docker</strong></ul>
+                        </div>
+                    </li>
+                </ul>
+                <div class="footerContainer">
+                    <footer>
+                        <p class="footer-text"><strong>Let's Connect!</strong><br> Feel Free To Reach Me At Any Of My Socials!</p>
+                        <button class="linkedin" onclick="goToLinkedIn()">
+                            <span class="footerSocials">
+                                <img class="svg" src="./assets/linkedin-svgrepo-com.svg">
+                                LINKEDIN
+                            </span>
+                        </button>
+                        <button class="github" onclick="goToGithub()">
+                            <span class="footerSocials">
+                                <img class="svg" src="./assets/github-mark-white.png">
+                                GITHUB
+                            </span>
+                        </button>
+                    </footer>
+                </div>
             </div>
         </div>
-        <div class="wrapper">
-            <header>
-                <h1>Software Developer Portfolio</h1>
-                <h3>Backend projects to Fullstack web applications using technology like React, Nodejs. </h3>
-                <small>These are some of my completed projects but more projects can be found on my github on current projects.</small>
-            </header>
-            <ul class="project-grid">
-                <li class="project-item">
-                    <a class="screen" href="https://github.com/Brandon-Price/UI-Project" target="_blank">
-                        <img class="image" src="./assets/project1/Homepage.png">
-                        <img class="image" src="./assets/project1/Sign-In Sign-Up.png">
-                    </a>
-                    <div class="tagsContainer">
-                        <ul class="tags"><strong>React</strong></ul>
-                        <ul class="tags"><strong>Redux</strong></ul>
-                        <ul class="tags"><strong>Nodejs</strong></ul>
-                        <ul class="tags"><strong>Express</strong></ul>
-                        <ul class="tags"><strong>MongoDB</strong></ul>
-                    </div>
-                </li>
-                <li class="project-item">
-                    <a class="screen" href="https://github.com/Brandon-Price/SWE-Project" target="_blank">
-                        <img class="image" src="./assets/project2/Homepage.png">
-                        <img class="image" src="./assets/project2/Sign In Sign Up.png">
-                    </a>
-                    <div class="tagsContainer">
-                        <ul class="tags"><strong>React</strong></ul>
-                        <ul class="tags"><strong>Redux</strong></ul>
-                        <ul class="tags"><strong>Nodejs</strong></ul>
-                        <ul class="tags"><strong>Express</strong></ul>
-                        <ul class="tags"><strong>MongoDB</strong></ul>
-                    </div>
-                </li>
-                <li class="project-item">
-                    <a class="screen" href="https://github.com/Brandon-Price/uAuth" target="_blank">
-                        <img class="image" src="./assets/project3/Sign in.png">
-                        <img class="image" src="./assets/project3/Database Test.png"">
-                    </a>
-                    <div class="tagsContainer">
-                        <ul class="tags"><strong>Typescript</strong></ul>
-                        <ul class="tags"><strong>Nextjs</strong></ul>
-                        <ul class="tags"><strong>Tailwind</strong></ul>
-                        <ul class="tags"><strong>Postgres</strong></ul>
-                        <ul class="tags"><strong>Express</strong></ul>
-                        <ul class="tags"><strong>Docker</strong></ul>
-                        <ul class="tags"><strong>Prisma</strong></ul>
-                    </div>
-                </li>
-                <li class="project-item">
-                    <a class="screenPlaceholder" href="https://github.com/Brandon-Price/to-do" target="_blank">
-                        <img class="image" src="./assets/Placeholder.png">
-                    </a>
-                    <div class="tagsContainer">
-                        <ul class="tags"><strong>Typescript</strong></ul>
-                        <ul class="tags"><strong>Nextjs</strong></ul>
-                        <ul class="tags"><strong>Postgres</strong></ul>
-                        <ul class="tags"><strong>Docker</strong></ul>
-                    </div>
-                </li>
-            </ul>
-            <div class="footerContainer">
-                <footer>
-                    <p class="footer-text"><strong>Let's Connect!</strong><br> Feel Free To Reach Me At Any Of My Socials!</p>
-                    <button class="linkedin" onclick="goToLinkedIn()">
-                        <span class="footerSocials">
-                            <img class="svg" src="./assets/linkedin-svgrepo-com.svg">
-                            LINKEDIN
-                        </span>
-                    </button>
-                    <button class="github" onclick="goToGithub()">
-                        <span class="footerSocials">
-                            <img class="svg" src="./assets/github-mark-white.png">
-                            GITHUB
-                        </span>
-                    </button>
-                </footer>
-            </div>
-        </div>
-    </div>
-    <script src="./scripts/routes.js"></script>
-</body>
+        <script src="./scripts/routes.js"></script>
+    </body>
 </html>
