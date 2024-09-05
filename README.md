@@ -3,7 +3,7 @@
     <table style='border: none'>
       <tr>
             <td style="padding:10px">
-                <img  src='https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXVyMXFrODFtb3J3Njd2emdwMGtiZndiZXlzcHVwNGM2em84MGFubiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rzcYzbp8BZmwWTUPFa/giphy.webp'/>
+                <img  src='https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExanZ4ZzJoMjN4cHV0bzFmOWQ1NTc1YTR2NGZpY2JrOWIzbWExaWxzMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3dhmyq6EKw2x7eFt4X/giphy.webp'/>
             </td>
             <td style="padding:10px;">
               <h1>
