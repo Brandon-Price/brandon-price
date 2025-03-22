@@ -20,7 +20,7 @@
 </div>
 
 # Current/Recent projects:
-  - Healthcare Data Analysis: working on healthcare data to streamline further my approach to data and how I work on creating and finding solutions. Will be looking at dashboarding solutions once I finish the data analytics portion.
+  - Healthcare Data Analysis: working on healthcare data to streamline further my approach to data and how I work on creating and finding solutions. Will be looking at dashboarding solutions once I finish the data analytics portion.<br>
     (https://github.com/Brandon-Price/Healthcare_Dataset_Analysis)<br><br>
   - uAuth: creating a user authentication system to better learn express and nodejs as well as learning authentication practices and principles. <br>
     (https://github.com/Brandon-Price/uAuth)<br><br>
