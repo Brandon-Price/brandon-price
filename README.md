@@ -16,6 +16,8 @@
     <img style='height: 80px; width: 80px' src='https://media1.giphy.com/media/XAxylRMCdpbEWUAvr8/200w.webp'/>
     <img style='height: 80px; width: 80px' src='https://media0.giphy.com/media/fsEaZldNC8A1PJ3mwp/200w.webp'/>
     <img style='height: 80px; width: 80px' src='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHRxdW5lZzVmbWFlemxjMWFneHc1ZDVhZmR1YmNvajJ3bG15b3prZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/LMt9638dO8dftAjtco/giphy.webp'/> <br>
+    <img style='height: 80px; width: 80px' src='https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHpweDNzZmEzcDcwZ2F0bDM2NHl1cGhveXoyOTEzcngyZGcyampqNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/kH1DBkPNyZPOk0BxrM/giphy.gif'/> <br>
+    <img style='height: 80px; width: 80px' src='https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaDh4N3E1b2tqam9kd2FqeXZucmYxc2t2MGljamZzMXBmdWZwNmVreSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/21BnILw9xE6XWuGoPw/giphy.gif'/> <br>
   </div>
 </div>
 
