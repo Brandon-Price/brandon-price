@@ -9,15 +9,16 @@
   </div>
   <br>
   <div align=center>
-    <p>These are some of the languages I've used or have been working with.</p>
+    <p>Some of the tech stack I work with; others include Apache Spark, Apache Airflow and DBT</p>
+    <img style='height: 80px; width: 80px' src='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHRxdW5lZzVmbWFlemxjMWFneHc1ZDVhZmR1YmNvajJ3bG15b3prZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/LMt9638dO8dftAjtco/giphy.webp'/>
+    <img style='height: 70px; width: 110px' src='https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHpweDNzZmEzcDcwZ2F0bDM2NHl1cGhveXoyOTEzcngyZGcyampqNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/kH1DBkPNyZPOk0BxrM/giphy.gif'/>
+    <img style='height: 80px; width: 80px' src='https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaDh4N3E1b2tqam9kd2FqeXZucmYxc2t2MGljamZzMXBmdWZwNmVreSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/21BnILw9xE6XWuGoPw/giphy.gif'/>
     <img style='height: 80px; width: 80px' src='https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbnFub3RqaWZ3a2JlNGpvbTVyNnd0dXlwbmptN3J1NGQ5ejAzM2g3dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/kdFc8fubgS31b8DsVu/giphy.webp'/>
     <img style='height: 80px; width: 80px' src='https://media1.giphy.com/media/eNAsjO55tPbgaor7ma/200w.webp'/>
     <img style='height: 80px; width: 80px' src='https://media1.giphy.com/media/ln7z2eWriiQAllfVcn/200w.webp'/>
     <img style='height: 80px; width: 80px' src='https://media1.giphy.com/media/XAxylRMCdpbEWUAvr8/200w.webp'/>
-    <img style='height: 80px; width: 80px' src='https://media0.giphy.com/media/fsEaZldNC8A1PJ3mwp/200w.webp'/>
-    <img style='height: 80px; width: 80px' src='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHRxdW5lZzVmbWFlemxjMWFneHc1ZDVhZmR1YmNvajJ3bG15b3prZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/LMt9638dO8dftAjtco/giphy.webp'/> <br>
-    <img style='height: 80px; width: 80px' src='https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHpweDNzZmEzcDcwZ2F0bDM2NHl1cGhveXoyOTEzcngyZGcyampqNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/kH1DBkPNyZPOk0BxrM/giphy.gif'/> <br>
-    <img style='height: 80px; width: 80px' src='https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaDh4N3E1b2tqam9kd2FqeXZucmYxc2t2MGljamZzMXBmdWZwNmVreSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/21BnILw9xE6XWuGoPw/giphy.gif'/> <br>
+    <img style='height: 80px; width: 80px' src='https://media0.giphy.com/media/fsEaZldNC8A1PJ3mwp/200w.webp'/> <br>
+    
   </div>
 </div>
 
